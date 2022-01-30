@@ -20,7 +20,7 @@ const filePickRef=useRef(null)
 const [showEmojis,setShowEmojis]=useState();
 const[loading, setLoading]=useState(false)
 const {data:session}=useSession()
-
+console.log(session);
 
 const sendPost=async()=>{
    if(loading) return;
