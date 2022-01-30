@@ -8,7 +8,9 @@ function Login() {
 
 const providers=getProviders()
     return (
-      <div className="flex flex-col items-center space-y-20 pt-48">
+
+  <>
+   <div className="flex flex-col items-center space-y-20 pt-48">
         <Image
           src="https://rb.gy/ogau5a"
           width={150}
@@ -30,7 +32,14 @@ const providers=getProviders()
 
         
       </div>
+
+  </>
+
+      
     );
   }
+
+
+  
   
   export default Login;
